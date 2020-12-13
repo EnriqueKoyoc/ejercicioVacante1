@@ -18,3 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/personas', 'PersonasController@index')->name('personas');
+Route::post('/personas', 'PersonasController@store')->name('addPersonas');
+Route::put('/personas', 'PersonasController@update')->name('editPersona');

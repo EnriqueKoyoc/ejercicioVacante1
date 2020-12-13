@@ -30,6 +30,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Select2 -->
     <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
     <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <link rel="stylesheet" href="plugins/toastr/toastr.css">
     <!-- Bootstrap4 Duallistbox -->
     <link rel="stylesheet" href="plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css" <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
@@ -165,8 +166,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </li>
             </ul>
         </nav>
-        <!-- /.navbar -->
-        @extends('layouts/navBar')
 
         @extends('layouts/navLateral')
 
@@ -235,6 +234,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
     <!-- Bootstrap Switch -->
     <script src="plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+    <!-- toastr -->
+    <script src="plugins/toastr/toastr.min.js"></script>
+    <script src="plugins/sweetalert2/sweetalert2.min.js"></script>
+
 
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
